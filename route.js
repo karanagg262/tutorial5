@@ -1,7 +1,5 @@
 const crypto = require("crypto");
-const { json } = require("express");
 const express = require('express');
-const { send } = require("process");
 const router = express.Router();
 
 var users = [
